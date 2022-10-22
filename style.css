@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "CharlesBiz";
+  src: url(Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Bella";
+  src: url(Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Ingabire";
+  src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "buntu";
+  src: url(Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "kamenyi";
+  src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+.navBar {
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  height: auto;
+  align-items: center;
+  margin-left: 250px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-right: 150px;
+}
+
+li {
+  float: right;
+}
+
+li:last-child {
+  float: left;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  margin-top: 30px;
+}
+
+.heroKamenya {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 165px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "CharlesBiz", sans-serif;
+  color: #f9faf8;
+  margin-left: 100px;
+}
+
+.subcontent {
+  display: flex;
+}
+.subtext {
+  margin-left: 100px;
+  display: block;
+}
+
+#puti {
+  margin-left: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+  color: #e5e7eb;
+  border-radius: 1px;
+  font-family: "Ingabire";
+}
+
+#panda {
+  margin-left: 100px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+.subimage {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+#wino {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Bella";
+}
+
+#serv {
+  text-align: center;
+  color: #111;
+}
+
+.mainconte {
+  text-align: center;
+  margin: 60px;
+}
+
+.codetext {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-family: light italic;
+  height: 300px;
+  width: 1400px;
+  margin-left: 250px;
+}
+
+.callaction {
+  background-color: #3882f6;
+  display: flex;
+  margin-top: 60px;
+  height: 100px;
+  width: 800px;
+  margin-left: 500px;
+}
+
+.callcont {
+  display: block;
+}
+
+.puma {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#pumelle {
+  background-color: #3882f6;
+  color: white;
+}
+
+.studis {
+  display: block;
+  margin-left: 100px;
+}
+#bundi {
+  font-family: "Buntu";
+}
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  align-items: center;
+  color: #f9faf8;
+  height: 70px;
+  width: 1400px;
+  margin-left: 250px;
+  margin-top: 60px;
+  padding-top: 50px;
+}
